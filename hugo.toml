@@ -1,6 +1,6 @@
 baseURL = "https://www.bbmrc.com"
 languageCode = "en-us"
-title = "BBmrc - JDM finders service"
+title = "BBmrc"
 theme = "huey"
 canonifyurls = true
 
@@ -8,22 +8,22 @@ canonifyurls = true
   # General site metadata, used in header and other places
   author = "BBmrc"
   dateFormat = "January 2, 2006"
-  description = "This is a description of your site. This is also used in your site header metadata."
-  keywords = ""
+  description = "JDM finders and importing full service"
+  keywords = "jdm importing imports finders service"
   email = "info@bbmrc.com"
 
   # Use your Font Awesome token here. Example token is fake, so please get your own.
   fontawesomeToken = "8DCE0FBC-8228-46F8-B20B-EF6314BBBF06"
 
   # Use content from _index.md on homepage
-  # useIndexContent = true # default is false
+  useIndexContent = true # default is false
 
   # Navigation, use Bulma options here
   # navbarStyle = "is-transparent" # Default is "is-transparent"
   # navbarTitleStyle = "has-text-black" # Default is "has-text-black"
 
   # # Override Bulma schemes with values
-  # schemeMain = "" # Change background color, default is white
+  schemeMain = "#f8f8ff" # Change background color, default is white
   # link = "#000" # Bulma default is blue, though theme is black
   # linkHover = "#888" # Bulma default is grey-darker, though theme is #888
   # footerBackgroundColor = "false" # Bulma default is #fafafa. You can use "false" or #hex
@@ -40,17 +40,24 @@ canonifyurls = true
 # Top Navigation
 [[menu.nav]]
   identifier = 'home'
-  name = 'Home'
-  title = 'Home'
+  name = 'home'
+  title = 'home'
   url = '/'
   weight = 10
 
 [[menu.nav]]
-  identifier = 'archive'
-  name = 'Archive'
-  title = "Archive"
-  url = '/archive/'
+  identifier = 'services'
+  name = 'services'
+  title = "services"
+  url = '/services/'
   weight = 20
+
+[[menu.nav]]
+  identifier = 'about'
+  name = 'about'
+  title = "about"
+  url = '/about/'
+  weight = 30
 
 # Contacts
 
