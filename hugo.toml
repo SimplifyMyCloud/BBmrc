@@ -61,26 +61,12 @@ canonifyurls = true
 
 # Contacts
 
-[[ menu.social]]
-  identifier = 'linkedin'
-  name = 'LinkedIn'
-  pre = "<i class='fab fa-linkedin fa-lg'></i>"
-  url = "https://linkedin.com/in/yourlinkedinprofile"
-  weight = 10
-
-[[ menu.social]]
-  identifier = 'github'
-  name = 'Github'
-  pre = "<i class='fab fa-github fa-lg'></i>"
-  url = "https://github.com/yourgithubname"
-  weight = 20
-
-[[ menu.social]]
-  identifier = 'twitter'
-  name = 'Twitter'
-  pre = "<i class='fab fa-twitter fa-lg'></i>"
-  url = "https://twitter.com/yourtwittername"
-  weight = 30
+#[[ menu.social]]
+#  identifier = 'twitter'
+#  name = 'Twitter'
+#  pre = "<i class='fab fa-twitter fa-lg'></i>"
+#  url = "https://twitter.com/yourtwittername"
+#  weight = 30
 
 [outputs]
   home = ['HTML', 'RSS']
