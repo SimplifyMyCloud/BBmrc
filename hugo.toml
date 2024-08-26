@@ -1,37 +1,37 @@
-baseURL = "https://www.bbmrc.com"
-languageCode = "en-us"
-title = "BBmrc"
-theme = "huey"
+baseURL = 'https://www.bbmrc.com'
+languageCode = 'en-us'
+title = 'BBmrc'
+theme = 'huey'
 canonifyurls = true
 
 [params]
   # General site metadata, used in header and other places
-  author = "BBmrc"
-  dateFormat = "January 2, 2006"
-  description = "JDM finders and importing full service"
-  keywords = "jdm importing imports finders service"
-  email = "info@bbmrc.com"
+  author = 'BBmrc'
+  dateFormat = 'January 2, 2006'
+  description = 'JDM finders and importing full service'
+  keywords = 'jdm importing imports finders service'
+  email = 'info@bbmrc.com'
 
   # Use your Font Awesome token here. Example token is fake, so please get your own.
-  fontawesomeToken = "8DCE0FBC-8228-46F8-B20B-EF6314BBBF06"
+  fontawesomeToken = '95f321208a'
 
   # Use content from _index.md on homepage
   useIndexContent = true # default is false
 
   # Navigation, use Bulma options here
-  # navbarStyle = "is-transparent" # Default is "is-transparent"
-  # navbarTitleStyle = "has-text-black" # Default is "has-text-black"
+  # navbarStyle = 'is-transparent' # Default is 'is-transparent'
+  # navbarTitleStyle = 'has-text-black' # Default is 'has-text-black'
 
   # # Override Bulma schemes with values
-  schemeMain = "#f8f8ff" # Change background color, default is white
-  # link = "#000" # Bulma default is blue, though theme is black
-  # linkHover = "#888" # Bulma default is grey-darker, though theme is #888
-  # footerBackgroundColor = "false" # Bulma default is #fafafa. You can use "false" or #hex
-  # navbarItemHoverColor = "#444" # Bulma default is blue, though theme is #444
-  # navbarItemColor = "#888" # Bulma default is grey-dark, though theme is #888
+  schemeMain = '#f8f8ff' # Change background color, default is white
+  # link = '#000' # Bulma default is blue, though theme is black
+  # linkHover = '#888' # Bulma default is grey-darker, though theme is #888
+  # footerBackgroundColor = 'false' # Bulma default is #fafafa. You can use 'false' or #hex
+  # navbarItemHoverColor = '#444' # Bulma default is blue, though theme is #444
+  # navbarItemColor = '#888' # Bulma default is grey-dark, though theme is #888
 
   # Set static directory locations and favicon
-  favicon = "favicon.ico"
+  favicon = 'favicon.ico'
   staticDir = ['static']
 
 
@@ -48,14 +48,14 @@ canonifyurls = true
 [[menu.nav]]
   identifier = 'services'
   name = 'services'
-  title = "services"
+  title = 'services'
   url = '/services/'
   weight = 20
 
 [[menu.nav]]
   identifier = 'about'
   name = 'about'
-  title = "about"
+  title = 'about'
   url = '/about/'
   weight = 30
 
@@ -64,8 +64,8 @@ canonifyurls = true
 #[[ menu.social]]
 #  identifier = 'twitter'
 #  name = 'Twitter'
-#  pre = "<i class='fab fa-twitter fa-lg'></i>"
-#  url = "https://twitter.com/yourtwittername"
+#  pre = '<i class='fab fa-twitter fa-lg'></i>'
+#  url = 'https://twitter.com/yourtwittername'
 #  weight = 30
 
 [outputs]
